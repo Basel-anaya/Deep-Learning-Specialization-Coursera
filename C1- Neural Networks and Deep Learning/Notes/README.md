@@ -80,12 +80,12 @@ Here are the course summary as its given on the course [link](https://www.course
 -  we can understand difference between perceptron and sigmoid function by looking at sigmoid function graph.
 
 - Simple NN graph:
-  - ![](Images/Others/01.jpg)
+  - ![image](https://user-images.githubusercontent.com/81964452/184495802-7b60b99d-5ddc-464c-a048-54dc0166ad56.png)
   - Image taken from [tutorialspoint.com](http://www.tutorialspoint.com/)
 - RELU stands for rectified linear unit is the most popular activation function right now that makes deep NNs train faster now.
 - Hidden layers predicts connection between inputs automatically, thats what deep learning is good at.
 - Deep NN consists of more hidden layers (Deeper layers)
-  - ![](Images/Others/02.png)
+  - ![image](https://user-images.githubusercontent.com/81964452/184495811-d49fb9f2-cd6b-47d9-9d1c-8dad1a534a37.png)
   - Image taken from [opennn.net](http://www.opennn.net/)
 - Each Input will be connected to the hidden layer and the NN will decide the connections.
 - Supervised learning means we have the (X,Y) and we need to get the function that maps X to Y.
@@ -106,7 +106,7 @@ Here are the course summary as its given on the course [link](https://www.course
 - Deep learning is taking off for 3 reasons:
   1. Data:
      - Using this image we can conclude:
-       - ![](Images/11.png)
+       - ![image](https://user-images.githubusercontent.com/81964452/184495815-649967aa-8259-4c39-9a61-18a2b056bbff.png)
      - For small data NN can perform as Linear regression or SVM (Support vector machine)
      - For big data a small NN is better that SVM
      - For big data a big NN is better that a medium NN is better that small NN.
@@ -131,8 +131,6 @@ Here are the course summary as its given on the course [link](https://www.course
 ### Binary classification
 
 - Mainly he is talking about how to do a logistic regression to make a binary classifier.
-  - ![log](Images/Others/03.png)
-  - Image taken from [3.bp.blogspot.com](http://3.bp.blogspot.com)
 - He talked about an example of knowing if the current image contains a cat or not.
 - Here are some notations:
   - `M is the number of training vectors`
@@ -205,7 +203,7 @@ Here are the course summary as its given on the course [link](https://www.course
 ### Computation graph
 
 - Its a graph that organizes the computation from left to right.
-  - ![](Images/02.png)
+  - ![image](https://user-images.githubusercontent.com/81964452/184495831-59992b69-7aba-4bd1-9d1f-6a69e133248e.png)
 
 ### Derivatives with a Computation Graph
 
@@ -213,14 +211,14 @@ Here are the course summary as its given on the course [link](https://www.course
   If `x -> y -> z`          (x effect y and y effects z)
   Then `d(z)/d(x) = d(z)/d(y) * d(y)/d(x)`
 - The video illustrates a big example.
-  - ![](Images/03.png)
+  - ![image](https://user-images.githubusercontent.com/81964452/184495841-85c81afb-01ef-452f-9d48-7f3b42295179.png)
 - We compute the derivatives on a graph from right to left and it will be a lot more easier.
 - `dvar` means the derivatives of a final output variable with respect to various intermediate quantities.
 
 ### Logistic Regression Gradient Descent
 
 - In the video he discussed the derivatives of gradient decent example for one sample with two features `x1` and `x2`.
-  - ![](Images/04.png)
+  - ![image](https://user-images.githubusercontent.com/81964452/184495849-ac8fc6f2-7e05-44cc-8e51-c22eb67b3ae2.png)
 
 ### Gradient Descent on m Examples
 
@@ -237,7 +235,7 @@ Here are the course summary as its given on the course [link](https://www.course
   ```
 
 - So we have:
-  ![](Images/09.png)
+  ![image](https://user-images.githubusercontent.com/81964452/184495855-592a6c95-27b8-4916-af91-85daaa0bff58.png)
 
 - Then from right to left we will calculate derivations compared to the result:
 
@@ -388,7 +386,7 @@ Here are the course summary as its given on the course [link](https://www.course
 ### Computing a Neural Network's Output
 
 - Equations of Hidden layers:
-  - ![](Images/05.png)
+  - ![image](https://user-images.githubusercontent.com/81964452/184495876-a124bdb8-d776-4b9c-95cd-e6738f71c5c1.png)
 - Here are some informations about the last image:
   - `noOfHiddenNeurons = 4`
   - `Nx = 3`
@@ -544,7 +542,7 @@ Here are the course summary as its given on the course [link](https://www.course
   # Hint there are transposes with multiplication because to keep dimensions correct
   ```
 - How we derived the 6 equations of the backpropagation:   
-  ![](Images/06.png)
+  ![image](https://user-images.githubusercontent.com/81964452/184495890-69d7af98-22cb-4e65-b277-61850b99b522.png)
 
 ### Random Initialization
 
@@ -624,15 +622,15 @@ Here are the course summary as its given on the course [link](https://www.course
       - Audio ==> Low level sound features like (sss,bb) ==> Phonemes ==> Words ==> Sentences
 - Neural Researchers think that deep neural networks "think" like brains (simple ==> complex)
 - Circuit theory and deep learning:
-  - ![](Images/07.png)
+  - ![image](https://user-images.githubusercontent.com/81964452/184495901-631b37bc-8010-4863-b23a-2a3d94f6caf9.png)
 - When starting on an application don't start directly by dozens of hidden layers. Try the simplest solutions (e.g. Logistic Regression), then try the shallow neural network and so on.
 
 ### Building blocks of deep neural networks
 
 - Forward and back propagation for a layer l:
-  - ![Untitled](Images/10.png)
+  - ![image](https://user-images.githubusercontent.com/81964452/184495905-af503c61-f605-49b1-bd73-ca01ceedbbd1.png)
 - Deep NN blocks:
-  - ![](Images/08.png)
+  - ![image](https://user-images.githubusercontent.com/81964452/184495911-41f45630-1a36-4b51-b8fb-09285dd3a5fd.png)
 
 ### Forward and Backward Propagation
 
